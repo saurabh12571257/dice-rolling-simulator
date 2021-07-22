@@ -1,3 +1,4 @@
+# program to choose nay no. from 1 to 6 :
 import random 
 import os
 os.uname()
@@ -7,20 +8,20 @@ def generate():
     print("Dice Rolling Simulator")
     print("Made by saurabh dave")
     if number == 1:
-        print("1\\n")
+        print("1\n")
     elif number == 2:
-        print("2\\n")
+        print("2\n")
     elif number == 3:
-        print("3")
+        print("3\n")
     elif number == 4:
-        print("4\\n")
+        print("4\n")
     elif number == 5:
-        print("5\\n")
+        print("5\n")
     elif number == 6:
-        print("6\\n")
+        print("6\n")
     return
 
-print('To roll again enter "y" \nTo exit enter "n"')
+print('To roll again enter "y" \n To exit enter "n"')
 
 while True:
     choice = input()
